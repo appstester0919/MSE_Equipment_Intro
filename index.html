@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSE Equipment Introduction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app-container">
+        <header>
+            <h1>MSE Equipment</h1>
+        </header>
+
+        <main id="main-content">
+            <section id="floor-selection-screen" class="screen active">
+                <h2>Select a Floor</h2>
+                <div class="floor-options">
+                    <button class="floor-button" data-floor="7f">
+                        <img src="assets/images/7f-placeholder.svg" alt="7th Floor Lab">
+                        <span>7th Floor Lab</span>
+                    </button>
+                    <button class="floor-button" data-floor="2f">
+                        <img src="assets/images/2f-placeholder.svg" alt="2nd Floor Lab">
+                        <span>2nd Floor Lab</span>
+                    </button>
+                </div>
+            </section>
+
+            <section id="room-selection-screen" class="screen">
+                <button id="back-to-floor-selection" class="back-button">&larr; Back to Floors</button>
+                <h2 id="room-selection-title">Select a Room</h2>
+                <div id="room-list" class="grid-container"></div>
+            </section>
+
+            <section id="equipment-display-screen" class="screen">
+                <button id="back-to-room-selection" class="back-button">&larr; Back to Rooms</button>
+                <h2 id="equipment-display-title">Equipment</h2>
+                <div id="equipment-list" class="grid-container"></div>
+            </section>
+
+            <section id="equipment-detail-screen" class="screen">
+                <button id="back-to-equipment-display" class="back-button">&larr; Back to Equipment</button>
+                <h2 id="equipment-name-title"></h2>
+                <div id="equipment-detail-content">
+                    <img id="equipment-detail-image" src="" alt="Equipment Image">
+                    <audio id="equipment-audio-player" controls></audio>
+                </div>
+            </section>
+        </main>
+
+        <footer id="control-bar">
+            <div class="control-group">
+                <label for="version-select">Version:</label>
+                <select id="version-select">
+                    <option value="general" selected>General</option>
+                    <option value="pro">Professional</option>
+                </select>
+            </div>
+            <div class="control-group">
+                <label for="language-select">Language:</label>
+                <select id="language-select">
+                    <option value="eng" selected>English</option>
+                    <option value="pth">普通話</option>
+                </select>
+            </div>
+            <div class="prepared-by">Prepared by S.T.O Mr. KH LAI</div>
+        </footer>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,336 @@
+/* General Body Styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow-x: hidden; /* Prevent horizontal scroll on small screens */
+}
+
+#app-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    width: 95%;
+    max-width: 1200px; /* Max width for larger screens */
+    min-height: 90vh; /* Ensure it takes up most of the viewport height */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Ensures child elements don't break the border radius */
+}
+
+header {
+    background-color: #007aff; /* Apple blue */
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8em;
+    font-weight: 500;
+}
+
+main#main-content {
+    flex-grow: 1;
+    padding: 25px;
+    overflow-y: auto; /* Allow scrolling for content if it overflows */
+}
+
+/* Screen Management */
+.screen {
+    display: none; /* Hidden by default */
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.screen.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Floor Selection Screen */
+#floor-selection-screen h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    color: #1c1c1e;
+}
+
+.floor-options {
+    display: flex;
+    justify-content: space-around; /* Distributes space around items */
+    align-items: center; /* Vertically align items */
+    gap: 20px; /* Space between floor buttons */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.floor-button {
+    background-color: #e9ecef;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    width: 45%; /* Each button takes up roughly half the space */
+    max-width: 300px; /* Max width for each button */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.floor-button:hover {
+    background-color: #d3d9df;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+.floor-button img {
+    width: 100px; /* Adjust as needed */
+    height: 100px;
+    margin-bottom: 15px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.floor-button span {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #333;
+}
+
+/* Room and Equipment Screens */
+#room-selection-title, #equipment-display-title, #equipment-name-title {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.4em;
+    color: #1c1c1e;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.grid-item-button, .equipment-item {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center content vertically */
+    min-height: 120px; /* Ensure consistent height */
+}
+
+.grid-item-button:hover, .equipment-item:hover {
+    border-color: #007aff;
+    box-shadow: 0 2px 8px rgba(0, 122, 255, 0.15);
+    transform: translateY(-3px);
+}
+
+.equipment-item img {
+    width: 100%;
+    max-width: 150px; /* Control image size */
+    height: auto;
+    aspect-ratio: 1 / 1; /* Square images */
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.equipment-item span {
+    font-size: 0.95em;
+    color: #333;
+    word-break: break-word; /* Prevent long names from breaking layout */
+}
+
+/* Equipment Detail Screen */
+#equipment-detail-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#equipment-detail-image {
+    max-width: 80%;
+    height: auto;
+    max-height: 400px; /* Limit image height */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+#equipment-audio-player {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 15px;
+}
+
+/* Back Buttons */
+.back-button {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 18px;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-bottom: 20px;
+    display: inline-block; /* Allows margin-bottom to work */
+}
+
+.back-button:hover {
+    background-color: #5a6268;
+}
+
+/* Control Bar */
+#control-bar {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between; /* Changed to space-between */
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: calc(100% - 40px); /* Account for padding */
+    z-index: 1000;
+}
+
+.control-group {
+    display: flex;
+    align-items: center;
+}
+
+.control-group label {
+    margin-right: 8px;
+}
+
+.control-group select {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.prepared-by {
+    font-size: 0.8em;
+    color: #ccc;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    main#main-content {
+        padding: 20px;
+    }
+
+    .floor-options {
+        flex-direction: column; /* Stack floor buttons vertically */
+        align-items: center;
+    }
+
+    .floor-button {
+        width: 80%; /* Wider buttons on smaller screens */
+        max-width: none;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 15px;
+    }
+
+    #equipment-detail-image {
+        max-width: 95%;
+    }
+
+    #control-bar {
+        flex-direction: column; /* Stack controls vertically */
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .control-group {
+        width: 100%;
+        justify-content: space-between; /* Space out label and select */
+    }
+
+    .control-group select {
+        flex-grow: 1; /* Allow select to take available space */
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.3em;
+    }
+
+    main#main-content {
+        padding: 15px;
+    }
+
+    .floor-button img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .floor-button span {
+        font-size: 1em;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        gap: 10px;
+    }
+
+    .grid-item-button, .equipment-item {
+        padding: 10px;
+        min-height: 100px;
+    }
+
+    .equipment-item img {
+        max-width: 100px;
+    }
+
+    .back-button {
+        padding: 6px 14px;
+        font-size: 0.85em;
+    }
+}
+
+/* Placeholder image styles if actual images are missing */
+img[src$="placeholder.svg"] {
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+    font-size: 0.8em;
+}
+
+img[src$="placeholder.svg"]::after {
+    content: "Image"; /* Simple text placeholder */
+}

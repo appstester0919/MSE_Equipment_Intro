@@ -1,0 +1,47 @@
+I have two floors of laboratories (on the 7th and 2nd floors), each floor has different rooms with one or more equipment in each room. See the list below for details of the rooms and equipment arrangements. To introduce the equipment to the people, I have 4 recordings for each equipment, divided into simple and professional, and each of them is available in Putonghua and English.
+
+I would like to design a website that starts with a screen divided into two halves, one for the 7th floor lab or the other for the 2nd floor lab. After selecting the floor of the laboratory, the corresponding rooms are listed according to that floor. After selecting a room, a square picture of the equipment in the room is listed, and at the bottom of the screen there is a bar with two switches for selecting “General” and “Professional”, and “Mandarin” and “English”. There are two switches for selecting “General” and “Professional”, and “Putonghua” and “English”. When I click on the picture of the equipment, it will streaming play the corresponding lecture recording file according to my selection in the bottom bar of the screen.
+
+UI/UX for refence https://www.figma.com/design/PsBGNLe9A5WymocskaDsB9/Untitled?node-id=0-1&t=cBhku7hAI9nb4aJl-1
+
+Room	Equipment name
+R7143	RETSCH Ball Mill PM 400
+R7143	PerkinElmer Carbolite Gero FurnanceTemp 30-1500oC
+R7143	MTI Vacuum Chamber Furnace VBF-1200X-H8
+R7163	OMAX ProtoMAX Abrasive Waterjet Cutter
+R7167	Bruker Multimode 8J AFM
+R7167	WITec alpha300 R Raman System
+R7167	Heidelberg uMLA Maskless Aligner
+R7167	Edinburgh Instruments FLS1000 Photoluminescence Spectrometer System
+R7167	NIKON #Ti2-E ADVANCED OPTICAL MICROSCOPE
+R7167	JCM-6000 Versatile Benchtop SEM
+R7168	DataPhysics Contact Angle Tester
+R7168	Alpha-SE Ellipsometer
+R7168	JEOL Smart Coater
+R7168	Buehler EcoMet 30 Manual Single Polishers
+R7168	Buehler Sectioning and Cutting Tools
+R7168	Buehler SimpliMet 4000 Automated Compression Mounting Rig
+R7168	Buehler VH1202 & VH1150 Vickers-Knoop Hardness Tester
+R7168	Jelight UV-Ozone Cleaner
+R7168	Bruker DektakXT-E Profilometer
+R7183	Lake Shore Cryogenic Probe Stations, CRX 6.5K (with IV module) & CRX VF (with magnetic field)
+R7183	Thermo Fisher Apreo 2 SEM
+
+Room	Equipment name
+B2605	Kurt J. Lesker Co. PRO Line PVD 75 Thin Film Deposition System
+B2605	Agilent 7890B Gas Chromatography Mass spectrometry - Flame ionization detector Gas Chromatography -Thermal conductivity detector
+B2605	Instron Series 3382 UTM System
+B2605	Micromeritics 3Flex 3500 Multi-port High Throughput Gas Adsorption Analyzer with 3-Micropore Ports
+B2605	Vigor LG1200/750TS Glove Box
+B2605	UNICUBE Elemental analyzer with oxygen determination
+B2620	Bruker D2 PHASER XE-T X-ray Diffractometer system
+B2625	Rigaku SmartLab 9kW X-ray Diffractometer (Powder Version)
+B2625	SpectroInlets EC-MS analysis system
+B2640	Hitachi UH4150 UV-Vis-NIR
+B2640	PerkinElmer DSC 8000 Differential Scanning Calorimeter
+B2640	PerkinElmer FTIR Spectrometer
+B2640	PerkinElmer Lambda 1050+ UV/Vis/NIR spectrophotometers with labsphere
+B2640	PerkinElmer STA 6000 Simultaneous Thermal Analyzer
+B2640	Sartorius Cubis II Ultra-Micro Balance
+B2730	Thermo Fisher ESCALAB XI+ X-ray Photoelectron Spectrometer
+B2790	Gleeble 3500-GTC System
