@@ -152,15 +152,15 @@ const appData = {
                             id: "NIKONTi2EAdvancedOpticalMicroscope",
                             name: "NIKON #Ti2-E ADVANCED OPTICAL MICROSCOPE",
                             name_zh: "尼康#Ti2-E高級光學顯微鏡",
-                            image: "Equipment image/NIKON %23Ti2-E ADVANCED OPTICAL MICROSCOPE.jpg",
+                            image: "Equipment image/NIKON #Ti2-E ADVANCED OPTICAL MICROSCOPE.jpg",
                             audio: {
                                 eng: {
-                                    general: "Eng. Public. Ver. 7F MSE Equipment introduction/NIKON %23Ti2-E ADVANCED OPTICAL MICROSCOPE.mp3",
-                                    pro: "Eng. Pro. Ver. 7F MSE Equipment introduction/NIKON %23Ti2-E ADVANCED OPTICAL MICROSCOPE.mp3"
+                                    general: "Eng. Public. Ver. 7F MSE Equipment introduction/NIKON #Ti2-E ADVANCED OPTICAL MICROSCOPE.mp3",
+                                    pro: "Eng. Pro. Ver. 7F MSE Equipment introduction/NIKON #Ti2-E ADVANCED OPTICAL MICROSCOPE.mp3"
                                 },
                                 pth: {
-                                    general: "普通話 Public. Ver. 7F MSE Equipment introduction/NIKON %23Ti2-E ADVANCED OPTICAL MICROSCOPE.mp3",
-                                    pro: "普通話 Pro. Ver. 7F MSE Equipment introduction/NIKON %23Ti2-E ADVANCED OPTICAL MICROSCOPE.MP3"
+                                    general: "普通話 Public. Ver. 7F MSE Equipment introduction/NIKON #Ti2-E ADVANCED OPTICAL MICROSCOPE.mp3",
+                                    pro: "普通話 Pro. Ver. 7F MSE Equipment introduction/NIKON #Ti2-E ADVANCED OPTICAL MICROSCOPE.MP3"
                                 }
                             }
                         },
