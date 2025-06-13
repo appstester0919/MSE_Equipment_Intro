@@ -16,7 +16,7 @@ const appData = {
                             audio: {
                                 eng: {
                                     general: "Eng. Public. Ver. 7F MSE Equipment introduction/RETSCH Ball Mill PM 400.mp3",
-                                    pro: "Eng. Pro. Ver. 7F MSE Equipment introduction/RETSCH Ball Mill PM 400.MP3"
+                                    pro: "Eng. Pro. Ver. 7F MSE Equipment introduction/RETSCH Ball Mill PM 400.mp3"
                                 },
                                 pth: {
                                     general: "普通話 Public. Ver. 7F MSE Equipment introduction/RETSCH Ball Mill PM 400.MP3",
@@ -48,7 +48,7 @@ const appData = {
                             audio: {
                                 eng: {
                                     general: "Eng. Public. Ver. 7F MSE Equipment introduction/MTI Vacuum Chamber Furnace VBF-1200X-H8.mp3",
-                                    pro: "Eng. Pro. Ver. 7F MSE Equipment introduction/MTI Vacuum Chamber Furnace VBF-1200X-H8.MP3"
+                                    pro: "Eng. Pro. Ver. 7F MSE Equipment introduction/MTI Vacuum Chamber Furnace VBF-1200X-H8.mp3"
                                 },
                                 pth: {
                                     general: "普通話 Public. Ver. 7F MSE Equipment introduction/MTI Vacuum Chamber Furnace VBF-1200X-H8.MP3",
@@ -144,7 +144,7 @@ const appData = {
                                 },
                                 pth: {
                                     general: "普通話 Public. Ver. 7F MSE Equipment introduction/Edinburgh Instruments FLS1000 Photoluminescence Spectrometer System.mp3",
-                                    pro: "普通話 Pro. Ver. 7F MSE Equipment introduction/Edinburgh Instruments FLS1000 Photoluminescence Sp.MP3"
+                                    pro: "普通話 Pro. Ver. 7F MSE Equipment introduction/Edinburgh Instruments FLS1000 Photoluminescence Spectrometer System.mp3"
                                 }
                             }
                         },
@@ -172,7 +172,7 @@ const appData = {
                             audio: {
                                 eng: {
                                     general: "Eng. Public. Ver. 7F MSE Equipment introduction/JCM-6000 Versatile Benchtop SEM.mp3",
-                                    pro: "Eng. Pro. Ver. 7F MSE Equipment introduction/JCM-6000 Versatile Benchtop SEM.MP3"
+                                    pro: "Eng. Pro. Ver. 7F MSE Equipment introduction/JCM-6000 Versatile Benchtop SEM.mp3"
                                 },
                                 pth: {
                                     general: "普通話 Public. Ver. 7F MSE Equipment introduction/JCM-6000 Versatile Benchtop SEM.mp3",
@@ -278,7 +278,7 @@ const appData = {
                                 },
                                 pth: {
                                     general: "普通話 Public. Ver. 7F MSE Equipment introduction/Buehler SimpliMet 4000 Automated Compression Mounting Rig.mp3",
-                                    pro: "普通話 Pro. Ver. 7F MSE Equipment introduction/Buehler SimpliMet 4000 Automated Compression Mount.MP3"
+                                    pro: "普通話 Pro. Ver. 7F MSE Equipment introduction/Buehler SimpliMet 4000 Automated Compression Mounting Rig.MP3"
                                 }
                             }
                         },
