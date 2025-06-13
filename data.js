@@ -155,12 +155,12 @@ const appData = {
                             image: "Equipment image/NIKON Ti2-E ADVANCED OPTICAL MICROSCOPE.jpg",
                             audio: {
                                 eng: {
-                                    general: "Eng. Public. Ver. 7F MSE Equipment introduction/NIKON Ti2-E ADVANCED OPTICAL MICROSCOPE.mp3",
-                                    pro: "Eng. Pro. Ver. 7F MSE Equipment introduction/NIKON Ti2-E ADVANCED OPTICAL MICROSCOPE.mp3"
+                                    general: "Eng. Public. Ver. 7F MSE Equipment introduction/NIKON %23Ti2-E ADVANCED OPTICAL MICROSCOPE.mp3",
+                                    pro: "Eng. Pro. Ver. 7F MSE Equipment introduction/NIKON %23Ti2-E ADVANCED OPTICAL MICROSCOPE.mp3"
                                 },
                                 pth: {
-                                    general: "普通話 Public. Ver. 7F MSE Equipment introduction/NIKON Ti2-E ADVANCED OPTICAL MICROSCOPE.mp3",
-                                    pro: "普通話 Pro. Ver. 7F MSE Equipment introduction/NIKON Ti2-E ADVANCED OPTICAL MICROSCOPE.MP3"
+                                    general: "普通話 Public. Ver. 7F MSE Equipment introduction/NIKON %23Ti2-E ADVANCED OPTICAL MICROSCOPE.mp3",
+                                    pro: "普通話 Pro. Ver. 7F MSE Equipment introduction/NIKON %23Ti2-E ADVANCED OPTICAL MICROSCOPE.MP3"
                                 }
                             }
                         },
