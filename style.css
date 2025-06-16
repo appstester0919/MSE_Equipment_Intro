@@ -263,7 +263,7 @@ main#main-content {
         gap: 15px;
     }
     .grid-item-button, .equipment-item {
-        font-size: 1.1em;
+        font-size: 1.2em;
     }
 
     #equipment-detail-image {
@@ -312,7 +312,7 @@ main#main-content {
     .grid-item-button, .equipment-item {
         padding: 10px;
         min-height: 100px;
-        font-size: 1.2em;
+        font-size: 1.4em;
     }
 
     .equipment-item img {
