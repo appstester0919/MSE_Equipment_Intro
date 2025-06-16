@@ -262,6 +262,9 @@ main#main-content {
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
         gap: 15px;
     }
+    .grid-item-button, .equipment-item {
+        font-size: 1.1em;
+    }
 
     #equipment-detail-image {
         max-width: 95%;
@@ -309,6 +312,7 @@ main#main-content {
     .grid-item-button, .equipment-item {
         padding: 10px;
         min-height: 100px;
+        font-size: 1.2em;
     }
 
     .equipment-item img {
